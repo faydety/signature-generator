@@ -157,11 +157,11 @@ else: ?><!DOCTYPE html>
                 <!--Company Information -->
                 <div class="col-sm-6 col-md-6">
 
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label for="Logo"> Company LOGO URL </label>
                         <input type="text" class="form-control phone" id="logo"
                                name="Sender[logo]" placeholder="" value="https://cdn.faydety.com.fra1.digitaloceanspaces.com/email_logo.png">
-                    </div>
+                    </div> -->
 
                     <!-- <div class="form-group">
                         <label for="Phone"> Company Phone </label>
@@ -171,7 +171,7 @@ else: ?><!DOCTYPE html>
                     <div class="form-group">
                         <label for="position">Position</label>
                         <input type="text" class="form-control" id="Phone" name="Sender[position]"
-                               placeholder="Web Developer" value="">
+                               placeholder="CTO" value="">
                     </div>
 
                     <div class="form-group">
@@ -188,20 +188,20 @@ else: ?><!DOCTYPE html>
 
                 </div>
 
-                <div class="clearfix"><!-- SOCIAL MEDIA LINKS --></div>
-                <br>
+                <!-- <div class="clearfix">SOCIAL MEDIA LINKS</div> -->
+                <!-- <br>
                 <hr>
-                <br>
-                <div class="col-md-6">
+                <br> -->
+                <!-- <div class="col-md-6"> -->
 
                     <!-- ADDRESS INFORMATION -->
-                    <h2 class="text-center"> Address Information </h2>
+                    <!-- <h2 class="text-center"> Address Information </h2> -->
 
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label for="Street"> Street Address </label>
                         <input type="text" class="form-control" id="street" name="Sender[street]"
                                placeholder="14 Saleh Ayoub" value="14 Saleh Ayoub, Zamalek, Cairo, Egypt">
-                    </div>
+                    </div> -->
 
                     <!-- <div class="form-group">
                         <label for="City"> City </label>
@@ -220,7 +220,7 @@ else: ?><!DOCTYPE html>
                         <input type="text" class="form-control" id="zip" name="Sender[zip]" placeholder="33455"
                                value="">
                     </div> -->
-                </div>
+                <!-- </div> -->
 
                 <!-- <div class="col-md-6">
                     <h2 class="text-center"> Social Media </h2> -->
