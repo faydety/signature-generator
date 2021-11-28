@@ -150,7 +150,7 @@ else: ?><!DOCTYPE html>
                     <div class="form-group">
                         <label for="Phone">Phone Number</label>
                         <input type="phone" class="form-control phone" id="personalPhone" name="Sender[phone]"
-                               placeholder="(555) 555-5555">
+                               placeholder="+20 555 555 5555">
                     </div>
                 </div>
 
@@ -160,30 +160,30 @@ else: ?><!DOCTYPE html>
                     <div class="form-group">
                         <label for="Logo"> Company LOGO URL </label>
                         <input type="text" class="form-control phone" id="logo"
-                               name="Sender[logo]" placeholder="" value="">
+                               name="Sender[logo]" placeholder="" value="https://cdn.faydety.com.fra1.digitaloceanspaces.com/email_logo.png">
                     </div>
 
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label for="Phone"> Company Phone </label>
                         <input type="phone" class="form-control phone" id="companyPhone"
                                name="Sender[company_phone]" placeholder="(555) 555-5555" value="">
-                    </div>
+                    </div> -->
                     <div class="form-group">
-                        <label for="position"> Position in Company </label>
+                        <label for="position">Position</label>
                         <input type="text" class="form-control" id="Phone" name="Sender[position]"
                                placeholder="Web Developer" value="">
                     </div>
 
                     <div class="form-group">
-                        <label for="Web"> Website URL/LINK ( Include HTTP/HTTPS ) </label>
+                        <label for="Web">Website URL/LINK ( Include HTTP/HTTPS ) </label>
                         <input type="text" class="form-control" id="web" name="Sender[web]"
-                               placeholder="http://thiswebsite.com" value="">
+                               placeholder="https://www.faydety.com" value="https://www.faydety.com">
                     </div>
 
                     <div class="form-group">
-                        <label for="Webshow"> Website Display Name </label>
+                        <label for="Webshow">Website Name </label>
                         <input type="text" class="form-control" id="webshow" name="Sender[webshow]"
-                               placeholder="wwww.thiswebsite.com" value="">
+                               placeholder="www.faydety.com" value="www.Faydety.com">
                     </div>
 
                 </div>
@@ -200,16 +200,16 @@ else: ?><!DOCTYPE html>
                     <div class="form-group">
                         <label for="Street"> Street Address </label>
                         <input type="text" class="form-control" id="street" name="Sender[street]"
-                               placeholder="1565 S. Federal Highway" value="">
+                               placeholder="14 Saleh Ayoub" value="14 Saleh Ayoub">
                     </div>
 
                     <div class="form-group">
                         <label for="City"> City </label>
                         <input type="text" class="form-control" id="city" name="Sender[city]"
-                               placeholder="West Palm Beach" value="">
+                               placeholder="Zamalek, Cairo" value="Zamalek Cairo">
                     </div>
 
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label for="State"> State </label>
                         <input type="text" class="form-control" id="state" name="Sender[state]" placeholder="FL"
                                value="">
@@ -219,7 +219,7 @@ else: ?><!DOCTYPE html>
                         <label for="Zip"> Zip Code </label>
                         <input type="text" class="form-control" id="zip" name="Sender[zip]" placeholder="33455"
                                value="">
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="col-md-6">
@@ -227,34 +227,34 @@ else: ?><!DOCTYPE html>
 
                     <!-- FB -->
                     <div class="form-group">
-                        <label for="fb"> Company Facebook Page Link </label>
-                        <input type="text" class="form-control" id="fb" name="Sender[fb]" placeholder="" value="">
+                        <label for="fb">Facebook Page Link </label>
+                        <input type="text" class="form-control" id="fb" name="Sender[fb]" placeholder="" value="https://www.facebook.com/faydetyofficial">
                     </div>
 
                     <!-- TW -->
                     <div class="form-group">
-                        <label for="tw"> Company Twitter Page Link </label>
-                        <input type="text" class="form-control" id="tw" name="Sender[tw]" placeholder="" value="">
+                        <label for="tw">Twitter Page Link </label>
+                        <input type="text" class="form-control" id="tw" name="Sender[tw]" placeholder="" value="https://twitter.com/faydetyofficial?lang=en">
                     </div>
 
                     <!-- INSTAGRAM -->
                     <div class="form-group">
-                        <label for="ig"> Company Instagram Page Link </label>
-                        <input type="text" class="form-control" id="ig" name="Sender[ig]" placeholder="" value="">
+                        <label for="ig">Instagram Page Link </label>
+                        <input type="text" class="form-control" id="ig" name="Sender[ig]" placeholder="" value="https://www.instagram.com/faydety.official/">
                     </div>
 
                     <!-- LinkedIn -->
                     <div class="form-group">
-                        <label for="li"> Company LinkedIn Page Link </label>
-                        <input type="text" class="form-control" id="li" name="Sender[li]" placeholder="" value="">
+                        <label for="li">LinkedIn Page Link </label>
+                        <input type="text" class="form-control" id="li" name="Sender[li]" placeholder="" value="https://www.linkedin.com/company/faydetyofficial/?viewAsMember=true">
                     </div>
 
 
                     <!-- GP -->
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label for="gp"> Company Google Plus Page Link </label>
                         <input type="text" class="form-control" id="gp" name="Sender[gp]" placeholder="" value="">
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
