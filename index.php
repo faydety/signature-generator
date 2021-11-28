@@ -200,14 +200,14 @@ else: ?><!DOCTYPE html>
                     <div class="form-group">
                         <label for="Street"> Street Address </label>
                         <input type="text" class="form-control" id="street" name="Sender[street]"
-                               placeholder="14 Saleh Ayoub" value="14 Saleh Ayoub">
+                               placeholder="14 Saleh Ayoub" value="14 Saleh Ayoub, Zamalek, Cairo, Egypt">
                     </div>
 
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label for="City"> City </label>
                         <input type="text" class="form-control" id="city" name="Sender[city]"
                                placeholder="Zamalek, Cairo" value="Zamalek Cairo">
-                    </div>
+                    </div> -->
 
                     <!-- <div class="form-group">
                         <label for="State"> State </label>
@@ -222,32 +222,32 @@ else: ?><!DOCTYPE html>
                     </div> -->
                 </div>
 
-                <div class="col-md-6">
-                    <h2 class="text-center"> Social Media </h2>
+                <!-- <div class="col-md-6">
+                    <h2 class="text-center"> Social Media </h2> -->
 
                     <!-- FB -->
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label for="fb">Facebook Page Link </label>
                         <input type="text" class="form-control" id="fb" name="Sender[fb]" placeholder="" value="https://www.facebook.com/faydetyofficial">
-                    </div>
+                    </div> -->
 
                     <!-- TW -->
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label for="tw">Twitter Page Link </label>
                         <input type="text" class="form-control" id="tw" name="Sender[tw]" placeholder="" value="https://twitter.com/faydetyofficial?lang=en">
-                    </div>
+                    </div> -->
 
                     <!-- INSTAGRAM -->
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label for="ig">Instagram Page Link </label>
                         <input type="text" class="form-control" id="ig" name="Sender[ig]" placeholder="" value="https://www.instagram.com/faydety.official/">
-                    </div>
+                    </div> -->
 
                     <!-- LinkedIn -->
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label for="li">LinkedIn Page Link </label>
                         <input type="text" class="form-control" id="li" name="Sender[li]" placeholder="" value="https://www.linkedin.com/company/faydetyofficial/?viewAsMember=true">
-                    </div>
+                    </div> -->
 
 
                     <!-- GP -->
@@ -255,7 +255,7 @@ else: ?><!DOCTYPE html>
                         <label for="gp"> Company Google Plus Page Link </label>
                         <input type="text" class="form-control" id="gp" name="Sender[gp]" placeholder="" value="">
                     </div> -->
-                </div>
+                <!-- </div> -->
             </div>
 
             <!--action buttons -->
@@ -266,7 +266,7 @@ else: ?><!DOCTYPE html>
     </div>
     <div class="container">
         <!-- preview box -->
-        <iframe src="about:blank" name="preview" width="100%" height="500"></iframe>
+        <iframe src="about:blank" style="border: 0px;" name="preview" width="100%" height="500"></iframe>
     </div>
 </div>
 
