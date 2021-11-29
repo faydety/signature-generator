@@ -149,7 +149,7 @@ else: ?><!DOCTYPE html>
                     </div>
                     <div class="form-group">
                         <label for="Phone">Phone Number</label>
-                        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control phone" id="personalPhone" name="Sender[phone]"
+                        <input type="phone" class="form-control phone" id="personalPhone" name="Sender[phone]"
                                placeholder="010 0978 8301">
                     </div>
                 </div>
@@ -187,75 +187,6 @@ else: ?><!DOCTYPE html>
                     </div>
 
                 </div>
-
-                <!-- <div class="clearfix">SOCIAL MEDIA LINKS</div> -->
-                <!-- <br>
-                <hr>
-                <br> -->
-                <!-- <div class="col-md-6"> -->
-
-                    <!-- ADDRESS INFORMATION -->
-                    <!-- <h2 class="text-center"> Address Information </h2> -->
-
-                    <!-- <div class="form-group">
-                        <label for="Street"> Street Address </label>
-                        <input type="text" class="form-control" id="street" name="Sender[street]"
-                               placeholder="14 Saleh Ayoub" value="14 Saleh Ayoub, Zamalek, Cairo, Egypt">
-                    </div> -->
-
-                    <!-- <div class="form-group">
-                        <label for="City"> City </label>
-                        <input type="text" class="form-control" id="city" name="Sender[city]"
-                               placeholder="Zamalek, Cairo" value="Zamalek Cairo">
-                    </div> -->
-
-                    <!-- <div class="form-group">
-                        <label for="State"> State </label>
-                        <input type="text" class="form-control" id="state" name="Sender[state]" placeholder="FL"
-                               value="">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="Zip"> Zip Code </label>
-                        <input type="text" class="form-control" id="zip" name="Sender[zip]" placeholder="33455"
-                               value="">
-                    </div> -->
-                <!-- </div> -->
-
-                <!-- <div class="col-md-6">
-                    <h2 class="text-center"> Social Media </h2> -->
-
-                    <!-- FB -->
-                    <!-- <div class="form-group">
-                        <label for="fb">Facebook Page Link </label>
-                        <input type="text" class="form-control" id="fb" name="Sender[fb]" placeholder="" value="https://www.facebook.com/faydetyofficial">
-                    </div> -->
-
-                    <!-- TW -->
-                    <!-- <div class="form-group">
-                        <label for="tw">Twitter Page Link </label>
-                        <input type="text" class="form-control" id="tw" name="Sender[tw]" placeholder="" value="https://twitter.com/faydetyofficial?lang=en">
-                    </div> -->
-
-                    <!-- INSTAGRAM -->
-                    <!-- <div class="form-group">
-                        <label for="ig">Instagram Page Link </label>
-                        <input type="text" class="form-control" id="ig" name="Sender[ig]" placeholder="" value="https://www.instagram.com/faydety.official/">
-                    </div> -->
-
-                    <!-- LinkedIn -->
-                    <!-- <div class="form-group">
-                        <label for="li">LinkedIn Page Link </label>
-                        <input type="text" class="form-control" id="li" name="Sender[li]" placeholder="" value="https://www.linkedin.com/company/faydetyofficial/?viewAsMember=true">
-                    </div> -->
-
-
-                    <!-- GP -->
-                    <!-- <div class="form-group">
-                        <label for="gp"> Company Google Plus Page Link </label>
-                        <input type="text" class="form-control" id="gp" name="Sender[gp]" placeholder="" value="">
-                    </div> -->
-                <!-- </div> -->
             </div>
 
             <!--action buttons -->
@@ -290,9 +221,9 @@ else: ?><!DOCTYPE html>
         });
 
         /*  Phone Number Masking */
-        $("input.phone").keyup(function () {
-            $(this).val($(this).val().replace(/^(\d{3})(\d{3})(\d)+$/, "($1) $2-$3"));
-        });
+        // $("input.phone").keyup(function () {
+        //     $(this).val($(this).val().replace(/^(\d{3})(\d{3})(\d)+$/, "($1) $2-$3"));
+        // });
 
     });
 
