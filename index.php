@@ -149,7 +149,7 @@ else: ?><!DOCTYPE html>
                     </div>
                     <div class="form-group">
                         <label for="Phone">Phone Number</label>
-                        <input type="phone" class="form-control phone" id="personalPhone" name="Sender[phone]"
+                        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control phone" id="personalPhone" name="Sender[phone]"
                                placeholder="010 0978 8301">
                     </div>
                 </div>
