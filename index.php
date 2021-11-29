@@ -131,7 +131,7 @@ else: ?><!DOCTYPE html>
     <!-- Begin page content -->
     <div class="container">
         <div class="page-header">
-            <h1 class="main-header"> Signature Generator</h1>
+            <h1 class="main-header">Signature Generator</h1>
         </div>
         <form role="form" method="post" target="preview" id="form">
             <div class="row">
@@ -150,7 +150,7 @@ else: ?><!DOCTYPE html>
                     <div class="form-group">
                         <label for="Phone">Phone Number</label>
                         <input type="phone" class="form-control phone" id="personalPhone" name="Sender[phone]"
-                               placeholder="+20 555 555 5555">
+                               placeholder="010 0978 8301">
                     </div>
                 </div>
 
@@ -183,7 +183,7 @@ else: ?><!DOCTYPE html>
                     <div class="form-group">
                         <label for="Webshow">Website Name </label>
                         <input type="text" class="form-control" id="webshow" name="Sender[webshow]"
-                               placeholder="www.faydety.com" value="www.Faydety.com">
+                               placeholder="www.faydety.com" value="www.faydety.com">
                     </div>
 
                 </div>
